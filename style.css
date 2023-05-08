@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #120907;
+    /* background-color: white; */
 }
 
 header{
@@ -100,3 +101,35 @@ nav ul li{
     width: 800px;
     /* margin-left: 290px; */
 }
+
+.projects h2{
+    color: wheat;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project_a{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border: 15px solid green;
+    border-radius: 20px;
+    width: 50%;
+    align-items: center;
+    height: 500px;
+    align-self: center;
+    margin: auto;
+
+
+
+
+}
+
+.project_a img{
+    width: 50%;
+}
+
+.project_a a{
+    /* color: pink; */
+}
+
