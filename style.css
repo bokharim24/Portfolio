@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #120907;
+    font-family: 'Source Sans Pro', sans-serif;
+
     /* background-color: white; */
 }
 
@@ -11,7 +13,8 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10px;
-    background-color:#2b2744;
+    background-color: #120907;
+    /* background-color:#2b2744; */
     height: 80px;
     
 }
@@ -19,11 +22,22 @@ header{
 
 header a,header li,header ul{
     background-color:#2b2744;
+    background-color: #120907;
+    font-size: 20px;
 }
 
 
 .main_name{
     margin-right: auto;
+    transition: all 0.3s ease 0s;
+    
+    
+}
+
+.main_name:hover{
+    margin-right: auto;
+    color:#0088a9;
+
 }
 
 li,a,button{
@@ -53,7 +67,7 @@ nav ul li{
     color: #0088a9;    
 }
 
-.contact{
+.contact_button{
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
     border: none;
@@ -65,7 +79,7 @@ nav ul li{
 
 }
 
-.contact:hover{
+.contact_button:hover{
     background-color: rgba(0,136,169,0.8);
 
 
@@ -103,33 +117,89 @@ nav ul li{
 }
 
 .projects h2{
-    color: wheat;
+    color: #e3c13a;
     text-align: center;
     margin-bottom: 40px;
+    font-size: 50px;
+    margin-top: 100px;
 }
 
 .project_a{
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    border: 15px solid green;
+    flex-direction: row;
+    border: 5px solid #e3c13a;
     border-radius: 20px;
     width: 50%;
     align-items: center;
-    height: 500px;
-    align-self: center;
+    height: 400px;
     margin: auto;
-
-
-
+    background-color: grey;;
+    padding: 20px;
 
 }
 
 .project_a img{
     width: 50%;
+    max-width: 100%;
+    height:100%;
+    border :solid #e3c13a #213754
 }
 
-.project_a a{
-    /* color: pink; */
+.project_info a{
+    margin-bottom: 50px;
+    background-color: grey;;
+    font-size: 50px;
+
 }
 
+.project_info{
+    color: white;
+    background-color: grey;;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project_desc{
+    background-color: grey;;
+    font-size: 18px;
+}
+
+.project_a.b{
+    margin-top: 200px;
+}
+
+footer p {
+    color: white;
+
+}
+
+
+.socials{
+    display: flex;
+    justify-content: center;
+    font-size: 20p;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border:0.4px grey solid;
+    margin: 5px 10px;
+    border-radius: 100px;
+    color: white;
+
+  }
+
+.fa:hover{
+    color: #e3c13a;
+}
+  
+
+
+  
