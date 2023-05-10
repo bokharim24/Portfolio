@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #120907;
+    background-color: #101820;
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 
     /* background-color: white; */
 }
@@ -13,8 +14,8 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10px;
-    background-color: #120907;
-    /* background-color:#2b2744; */
+    /* background-color: #120907; */
+    background-color:#101820;
     height: 80px;
     
 }
@@ -22,7 +23,7 @@ header{
 
 header a,header li,header ul{
     background-color:#2b2744;
-    background-color: #120907;
+    background-color: #101820;
     font-size: 20px;
 }
 
@@ -96,18 +97,19 @@ nav ul li{
     color: white;
 }
 
-.about h2 b{
-    color: #0084cc;
+.about h2 b a{
+    color: rgba(0,136,169,1);
+    font-size: 25px;
    
 }
 
 .about span{
-    color: #e3c13a;
+    color: #FEE715;
 }
 
 .about p{
     color: white;
-    font-size: 17px;
+    font-size: 19px;
     margin-top: 30px;
     text-align: center;
     margin-left: auto;
@@ -117,7 +119,7 @@ nav ul li{
 }
 
 .projects h2{
-    color: #e3c13a;
+    color: #FEE715;
     text-align: center;
     margin-bottom: 40px;
     font-size: 50px;
@@ -129,7 +131,7 @@ nav ul li{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    border: 5px solid #e3c13a;
+    border: 5px solid #FEE715;
     border-radius: 20px;
     width: 50%;
     align-items: center;
@@ -144,7 +146,7 @@ nav ul li{
     width: 50%;
     max-width: 100%;
     height:100%;
-    border :solid #e3c13a #213754
+    border :solid #FEE715 #213754
 }
 
 .project_info a{
@@ -171,16 +173,26 @@ nav ul li{
     margin-top: 200px;
 }
 
-footer p {
-    color: white;
-
+.resume h2{
+    color: #FEE715;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+    margin-top: 100px;
 }
 
+
+footer p {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+
+}
 
 .socials{
     display: flex;
     justify-content: center;
-    font-size: 20p;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -191,15 +203,64 @@ footer p {
     text-decoration: none;
     border:0.4px grey solid;
     margin: 5px 10px;
-    border-radius: 100px;
+    height: auto;
+    border-radius: 100%;
     color: white;
 
   }
 
 .fa:hover{
-    color: #e3c13a;
+    color: #FEE715;
 }
   
 
+.resume_title h3{
+    text-align: center;
+    color: #FEE715;
+    font-size: 35px;
+}
 
+.resume_title.experience{
+    margin-top: 40px;
+}
+
+.resume_title.activities{
+     margin-top: 40px;
+}
+
+
+hr{
+    width: 80%;
+    margin: auto;
+    height: 5px;
+    background: white;
+    margin-top: 10px;
+}
+.header, .header_date span{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.header_date{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.points{
+    width: 80%;
+    margin: auto;
+}
+
+.points ul  {
+    margin-top: 20px;
+}
+
+.points li{
+    list-style:circle;
+    margin-left: 15px;
+    margin-top: 5px;
+}
   
