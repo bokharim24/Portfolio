@@ -146,7 +146,14 @@ nav ul li{
     width: 50%;
     max-width: 100%;
     height:100%;
-    border :solid #FEE715 #213754
+    margin-left: 20px;
+    border :solid  #213754
+}
+
+.project_a.b img{
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
 .project_info a{
